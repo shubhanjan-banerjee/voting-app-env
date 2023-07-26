@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: voting-app-deployment
+  namespace: default
   labels:
     name: voting-app-deployment
     app: demo-voting-app
