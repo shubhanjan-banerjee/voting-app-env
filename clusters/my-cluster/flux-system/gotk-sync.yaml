@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/shubhanjan-banerjee/voting-app-env
+  url: https://github.com/shubhanjan-banerjee/voting-app-env.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
